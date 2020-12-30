@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.budget-container {
+    width: 360px;
+}
+
+.budget-header {
+    background-color: rgb(48, 46, 46); 
+    color: rgb(255, 255, 255);
+}
+
+.budget-detail button {
+    background-color: white;
+    border: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid white !important;
+    width: 100px;
+}
